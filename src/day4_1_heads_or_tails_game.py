@@ -1,3 +1,4 @@
+"""import random module"""
 import random
 
 #1 means Heads 0 means Tails
