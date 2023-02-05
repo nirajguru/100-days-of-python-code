@@ -10,7 +10,7 @@ else:
     print("Invalid level")
 
 answer_to_game = random.randint(1, 4)
-print(answer_to_game)
+# print(answer_to_game)  This is the answer and the user wins the game if this matches the user entered number
 guessed_number = input("Guess a number: ")
 
 while attempts > 0:
