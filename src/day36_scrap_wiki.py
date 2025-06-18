@@ -12,7 +12,7 @@ response = requests.get("https://en.wikipedia.org/wiki/OpenText")
 
 
 soup = BeautifulSoup(response.text)
-print(soup.prettify())  # Print the entire HTML content of the page
+print(soup.prettify())  ## Niraj notes: prettify() formats the HTML to be more readable
 # print the first 4 paragraphs
 paragraphs = soup.find_all("p")   ## Niraj notes: find_all() returns a list of all matching elements
 for i in range(4):
